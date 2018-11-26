@@ -568,9 +568,12 @@ svg {
   width: 100%; }
 
 h3 {
-  color: #233d66;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
   text-align: center;
-  padding: 100px 0 30px; }
+  color: #1a2c37;
+  padding: 10px; }
 
 fieldset {
   padding: 0;
@@ -582,11 +585,6 @@ section:nth-child(odd) {
   padding-bottom: 100px; }
   section:nth-child(odd) h3 {
     color: #162640; }
-
-h3 {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase; }
 
 header {
   height: 350px;
@@ -669,12 +667,15 @@ footer {
     font-size: 12px;
     color: rgba(0, 0, 0, 0.4); }
 
-.aboutMeSection h3 {
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 10px; }
-.aboutMeSection .headShot {
+.aboutMeIntro p {
+  max-width: 850px;
+  padding: 0 15px;
+  margin: 30px auto;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300; }
+
+.headShot {
   background: url(../img/headShot.png);
   height: 200px;
   width: 200px;
@@ -686,37 +687,33 @@ footer {
   display: -ms-flexbox;
   display: flex;
   margin: 30px auto; }
-.aboutMeSection p {
-  max-width: 850px;
-  padding: 0 15px;
-  margin: 30px auto;
-  font-size: 20px;
-  text-align: center;
-  font-weight: 300; }
-.aboutMeSection .skill-lockup {
+
+.skill-lockup {
   max-width: 900px;
   margin: 100px auto;
   padding-left: 350px;
   color: #999;
   align-items: center; }
-  .aboutMeSection .skill-lockup:after {
+  .skill-lockup:after {
     content: "";
     display: table;
     clear: both; }
-.aboutMeSection .skill-unit {
+
+.skill-unit {
   width: 450px;
   float: left; }
-.aboutMeSection .skill-rating {
+
+.skill-rating {
   font-size: 0px;
   margin: 2px 0 30px; }
-  .aboutMeSection .skill-rating span {
+  .skill-rating span {
     display: inline-block;
     height: 14px;
     width: 14px;
     background-color: #1a2c37;
     margin-right: 5px;
     border-radius: 50%; }
-    .aboutMeSection .skill-rating span:after {
+    .skill-rating span:after {
       content: " ";
       display: block;
       height: 10px;
@@ -724,40 +721,43 @@ footer {
       background: #fff;
       border-radius: 50%;
       margin: 2px; }
-  .aboutMeSection .skill-rating.skill-0 span:nth-child(n+1) {
+  .skill-rating.skill-0 span:nth-child(n+1) {
     background: #e5eaee; }
-  .aboutMeSection .skill-rating.skill-1 span:nth-child(n+2) {
+  .skill-rating.skill-1 span:nth-child(n+2) {
     background: #e5eaee; }
-  .aboutMeSection .skill-rating.skill-2 span:nth-child(n+3) {
+  .skill-rating.skill-2 span:nth-child(n+3) {
     background: #e5eaee; }
-  .aboutMeSection .skill-rating.skill-3 span:nth-child(n+4) {
+  .skill-rating.skill-3 span:nth-child(n+4) {
     background: #e5eaee; }
-  .aboutMeSection .skill-rating.skill-4 span:nth-child(n+5) {
+  .skill-rating.skill-4 span:nth-child(n+5) {
     background: #e5eaee; }
-  .aboutMeSection .skill-rating.skill-5 span:nth-child(n+6) {
+  .skill-rating.skill-5 span:nth-child(n+6) {
     background: #e5eaee; }
-  .aboutMeSection .skill-rating.skill-6 span:nth-child(n+7) {
+  .skill-rating.skill-6 span:nth-child(n+7) {
     background: #e5eaee; }
-  .aboutMeSection .skill-rating.skill-7 span:nth-child(n+8) {
+  .skill-rating.skill-7 span:nth-child(n+8) {
     background: #e5eaee; }
-  .aboutMeSection .skill-rating.skill-8 span:nth-child(n+9) {
+  .skill-rating.skill-8 span:nth-child(n+9) {
     background: #e5eaee; }
-  .aboutMeSection .skill-rating.skill-9 span:nth-child(n+10) {
+  .skill-rating.skill-9 span:nth-child(n+10) {
     background: #e5eaee; }
-  .aboutMeSection .skill-rating.skill-10 span:nth-child(n+11) {
+  .skill-rating.skill-10 span:nth-child(n+11) {
     background: #e5eaee; }
+
 @media screen and (max-width: 1275px) {
-  .aboutMeSection .skill-lockup {
+  .skill-lockup {
     max-width: 500px;
     padding-left: 125px; }
-  .aboutMeSection .skill-unit {
+
+  .skill-unit {
     width: 250px; } }
 @media screen and (max-width: 768px) {
-  .aboutMeSection h3 {
+  h3 {
     font-size: 14px; }
-  .aboutMeSection p {
+
+  p {
     font-size: 18px; } }
 @media screen and (max-width: 768px) and (max-width: 630px) {
-  .aboutMeSection .skill-lockup {
+  .skill-lockup {
     max-width: 200px;
     padding-left: 14px; } }

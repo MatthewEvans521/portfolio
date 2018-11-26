@@ -37,19 +37,16 @@ seo:
 
 # NOTE: The avatar is defined in the all.sass document.
 
-blurb: >
+blurb:  <strong>My name is Matthew Ryan Evans</strong>, and I am a freelance front-end developer.
+            I am proficient in HTML, CSS, and Javascript. I am currently studying Software Development
+            at Western Governors University. The thing that excites me most about technology is that
+            we have advanced to a state where we (the thinkers, the dreamers) are no longer bound by
+            hardware limitations, but solely limited by the depth of our own imagination and ingenuity.
+            If you dream it I can build it, these are the words I live by.
 
 
 
-skills:
-- {name: Communication, value: '9'}
-- {name: Organization, value: '7'}
-- {name: Learning, value: '10'}
-- {name: Teaching, value: '6'}
-- {name: Planning, value: '7'}
-- {name: Visual Design, value: '5'}
-- {name: UX Design, value: '8'}
-- {name: Programming, value: '6'}
+
 
 #-------------------------------
 # Projects Section
