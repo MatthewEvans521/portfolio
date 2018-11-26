@@ -52,7 +52,7 @@
                 margin: 2px
 
         @for $i from 0 through 10
-            &.skill-#{$i} span:nth-child(n+#{$i})
+            &.skill-#{$i} span:nth-child(n+#{$i + 1})
                 background: $bgcolor
 
     @media screen and (max-width: 1275px)
