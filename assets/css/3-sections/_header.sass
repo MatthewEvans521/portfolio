@@ -2,6 +2,7 @@ header
     height: 350px
     background: url(../img/codeBackground.png) center center
     background-size: cover
+    +clearfix
 
     nav
         float: right
@@ -35,6 +36,7 @@ header
     span
         display: inline-block
         padding: 0.2em 0.5em
+        margin: 0 15px
         border: white solid 10px
 
     .kicker
@@ -44,3 +46,36 @@ header
         color: white
         text-transform: uppercase
         text-shadow: 1px 1px rgba(26,44,55,1)
+
+    @media screen and (max-width: 1005px)
+        h1
+            font:
+                size: 65px
+
+    @media screen and (max-width: 900px)
+        h1
+            font:
+                size: 55px
+
+@media screen and (max-width: 768px)
+    header
+        height: 285px
+
+        h1
+            padding-top:  75px
+            font:
+                size: 50px
+
+@media screen and (max-width: 425px)
+    header
+        height: 200px
+        background-size: cover
+        +clearfix
+
+        h1
+            padding-top:  45px
+            font:
+                size:  28px
+
+        span
+            border: white solid 5px
