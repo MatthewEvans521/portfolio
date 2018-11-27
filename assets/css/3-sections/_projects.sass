@@ -1,0 +1,49 @@
+.projectContainer
+    max-width: 960px
+    margin: 0 auto
+    padding-bottom: 100px
+    +clearfix
+
+    .thumbnail-1
+        background:
+            image: url(../img/projectThumbnails/cprnmoreThumbnail.png)
+            position: top center
+
+    .thumbnail-2
+        background:
+            image: url(../img/projectThumbnails/onmaxThumbnail.png)
+            position: center center
+
+    .thumbnail-1, .thumbnail-2
+        display: block
+        width: 50%
+        float: left
+        position: relative
+        padding-top: 20%
+        overflow: hidden
+
+        background:
+            repeat: no-repeat
+            size: cover
+
+        .thumbnail
+            +position(absolute, 100% 0px null 0px)
+            height: 100%
+            background: fade-out($accent, 0.1)
+            text-align: center
+            +transition
+            +display(flex)
+            +align-items(center)
+            +justify-content(space-around)
+
+            strong
+                display: block
+                padding: 25px
+                color: $bgcolor
+                font:
+                    weight: 300
+                    size: 24px
+                text-transform: uppercase
+
+        &:hover .thumbnail
+            +position(absolute, 0% 0px null 0px)

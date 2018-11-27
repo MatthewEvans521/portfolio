@@ -5,37 +5,13 @@ title: Matthew Ryan Evans
 description: Software Developer // Programer // Web Developer
 email: matthewevans521@gmail.com
 
-# NOTE: The Logo and Background image are defined in the all.sass document.
-
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Projects, url: '#projects'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
-# SEO Section
-
-# NOTE: Providing SEO information will make this website more searchable on the internet.
-
-seo:
-  description: 'Provide a description for your website to make it visible to search engines.'
-  rel-author: ''
-  rel-publisher: ''
-
-#-------------------------------
-# Google Analytics Section
-
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-#google-analytics-ua: UA-XXXXXX-X
-
-#-------------------------------
 # About Section
-
-# NOTE: The avatar is defined in the all.sass document.
 
 blurb:  <strong>My name is Matthew Ryan Evans</strong>, and I am a freelance front-end developer.
             I am proficient in HTML, CSS, and Javascript. I am currently studying Software Development
@@ -64,5 +40,25 @@ social:
 - {icon: 'twitter', link: 'http://twitter.com/MatthewEvans521'}
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/matthew-evans-9ba07bb6'}
 
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: ''
+  rel-publisher: ''
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
 
 #-------------------------------
