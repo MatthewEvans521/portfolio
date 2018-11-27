@@ -782,26 +782,22 @@ footer {
     position: relative;
     padding-top: 20%;
     overflow: hidden;
+    -webkit-perspective: 300;
+    -moz-perspective: 300;
+    perspective: 300;
     background-repeat: no-repeat;
     background-size: cover; }
     .projectContainer .thumbnail-1 .thumbnail, .projectContainer .thumbnail-2 .thumbnail {
       position: absolute;
-      top: 100%;
+      top: -140%;
       right: 0px;
       left: 0px;
       height: 100%;
       background: rgba(26, 44, 55, 0.9);
       text-align: center;
-      -webkit-transition: all 0.15s ease-out 0s;
-      -moz-transition: all 0.15s ease-out 0s;
-      transition: all 0.15s ease-out 0s;
-      display: -webkit-box;
-      display: -moz-box;
-      display: box;
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flexbox;
-      display: flex;
+      -webkit-transition: 425ms, opacity 500ms;
+      -moz-transition: 425ms, opacity 500ms;
+      transition: 425ms, opacity 500ms;
       -webkit-box-align: center;
       -moz-box-align: center;
       box-align: center;
@@ -819,16 +815,36 @@ footer {
       -ms-justify-content: space-around;
       -o-justify-content: space-around;
       justify-content: space-around;
-      -ms-flex-pack: center; }
+      -ms-flex-pack: center;
+      -webkit-transform: rotateX(90deg);
+      -moz-transform: rotateX(90deg);
+      -ms-transform: rotateX(90deg);
+      -o-transform: rotateX(90deg);
+      transform: rotateX(90deg);
+      -webkit-transform-origin: center bottom;
+      -moz-transform-origin: center bottom;
+      -ms-transform-origin: center bottom;
+      -o-transform-origin: center bottom;
+      transform-origin: center bottom;
+      opacity: 0; }
       .projectContainer .thumbnail-1 .thumbnail strong, .projectContainer .thumbnail-2 .thumbnail strong {
-        display: block;
-        padding: 25px;
+        display: inline-block;
+        padding: 20px 0px 10px;
         color: #e5eaee;
         font-weight: 300;
         font-size: 24px;
         text-transform: uppercase; }
+      .projectContainer .thumbnail-1 .thumbnail p, .projectContainer .thumbnail-2 .thumbnail p {
+        display: inline-block;
+        padding: 0px 25px 10px;
+        color: #e5eaee;
+        font-weight: 300;
+        font-size: 14px; }
     .projectContainer .thumbnail-1:hover .thumbnail, .projectContainer .thumbnail-2:hover .thumbnail {
-      position: absolute;
       top: 0%;
-      right: 0px;
-      left: 0px; }
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      -ms-transform: rotateX(0deg);
+      -o-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+      opacity: 1; }
