@@ -572,7 +572,7 @@ h3 {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  color: #1a2c37;
+  color: #162640;
   padding: 10px; }
 
 fieldset {
@@ -583,8 +583,11 @@ fieldset {
 section:nth-child(odd) {
   background: #e5eaee;
   padding-bottom: 100px; }
-  section:nth-child(odd) h3 {
-    color: #162640; }
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase; }
 
 header {
   height: 350px;
@@ -761,21 +764,33 @@ footer {
   .skill-lockup {
     max-width: 200px;
     padding-left: 14px; } }
+.sectionProjects {
+  overflow-x: hidden; }
+
 .projectContainer {
+  width: 200%;
+  position: relative;
+  left: -100%; }
+
+.thumbnailWrap, .projectWrap {
+  width: 50%;
+  float: left; }
+
+.projectThumbnails {
   max-width: 960px;
   margin: 0 auto;
   padding-bottom: 100px; }
-  .projectContainer:after {
+  .projectThumbnails:after {
     content: "";
     display: table;
     clear: both; }
-  .projectContainer .thumbnail-1 {
+  .projectThumbnails .thumbnail-1 {
     background-image: url(../img/projectThumbnails/cprnmoreThumbnail.png);
     background-position: top center; }
-  .projectContainer .thumbnail-2 {
+  .projectThumbnails .thumbnail-2 {
     background-image: url(../img/projectThumbnails/onmaxThumbnail.png);
     background-position: center center; }
-  .projectContainer .thumbnail-1, .projectContainer .thumbnail-2 {
+  .projectThumbnails .thumbnail-1, .projectThumbnails .thumbnail-2 {
     display: block;
     width: 50%;
     float: left;
@@ -787,7 +802,7 @@ footer {
     perspective: 300;
     background-repeat: no-repeat;
     background-size: cover; }
-    .projectContainer .thumbnail-1 .thumbnail, .projectContainer .thumbnail-2 .thumbnail {
+    .projectThumbnails .thumbnail-1 .thumbnail, .projectThumbnails .thumbnail-2 .thumbnail {
       position: absolute;
       top: -140%;
       right: 0px;
@@ -827,20 +842,20 @@ footer {
       -o-transform-origin: center bottom;
       transform-origin: center bottom;
       opacity: 0; }
-      .projectContainer .thumbnail-1 .thumbnail strong, .projectContainer .thumbnail-2 .thumbnail strong {
+      .projectThumbnails .thumbnail-1 .thumbnail strong, .projectThumbnails .thumbnail-2 .thumbnail strong {
         display: inline-block;
         padding: 20px 0px 10px;
         color: #e5eaee;
         font-weight: 300;
         font-size: 24px;
         text-transform: uppercase; }
-      .projectContainer .thumbnail-1 .thumbnail p, .projectContainer .thumbnail-2 .thumbnail p {
+      .projectThumbnails .thumbnail-1 .thumbnail p, .projectThumbnails .thumbnail-2 .thumbnail p {
         display: inline-block;
         padding: 0px 25px 10px;
         color: #e5eaee;
         font-weight: 300;
         font-size: 14px; }
-    .projectContainer .thumbnail-1:hover .thumbnail, .projectContainer .thumbnail-2:hover .thumbnail {
+    .projectThumbnails .thumbnail-1:hover .thumbnail, .projectThumbnails .thumbnail-2:hover .thumbnail {
       top: 0%;
       -webkit-transform: rotateX(0deg);
       -moz-transform: rotateX(0deg);
@@ -848,3 +863,12 @@ footer {
       -o-transform: rotateX(0deg);
       transform: rotateX(0deg);
       opacity: 1; }
+
+.cprnmore {
+  max-width: 960px;
+  margin: 0 auto; }
+  .cprnmore img {
+    max-width: 100%; }
+  .cprnmore .placeholder {
+    float: left;
+    margin: 10px; }
