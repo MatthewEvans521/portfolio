@@ -574,7 +574,8 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   color: #162640;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 25px; }
 
 fieldset {
   padding: 0;
@@ -787,8 +788,7 @@ footer {
 
 .projectThumbnails {
   max-width: 960px;
-  margin: 0 auto;
-  padding-bottom: 100px; }
+  margin: 0 auto; }
   .projectThumbnails:after {
     content: "";
     display: table;
@@ -894,3 +894,80 @@ footer {
       fill: #666; }
       .cprnmoreWrap .projectBack path:hover, .onmaxWrap .projectBack path:hover {
         fill: #1a2c37; }
+
+.contact {
+  text-align: center; }
+
+.socialLinks {
+  max-width: 700px;
+  margin: 0px auto 50px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: center;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .socialLinks a {
+    display: block;
+    border: 2px solid #1a2c37;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    color: #1a2c37;
+    border-radius: 50%;
+    font-size: 28px;
+    margin: 20px;
+    position: relative; }
+    .socialLinks a:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      border: 2px solid #1a2c37;
+      border-radius: 50%;
+      margin: -2px;
+      opacity: 1;
+      -webkit-transition: all 0.15s ease-out 0s;
+      -moz-transition: all 0.15s ease-out 0s;
+      transition: all 0.15s ease-out 0s; }
+    .socialLinks a:hover:after {
+      -webkit-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+      transform: scale(1.5);
+      opacity: 0; }
+
+.bar {
+  width: 60%;
+  height: 0px;
+  border-top: 4px solid #1a2c37;
+  margin: 0px auto 50px; }
+
+.email {
+  display: inline-block;
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 1;
+  width: 90%;
+  margin: 0 auto; }
