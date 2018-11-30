@@ -4,7 +4,8 @@
 .projectContainer
     width: 200%
     position: relative
-    left: -100%
+    left: 0%
+    +transition(all 800ms)
 
 .thumbnailWrap, .projectWrap
     width: 50%
@@ -33,6 +34,7 @@
         position: relative
         padding-top: 20%
         overflow: hidden
+        cursor: pointer
         +perspective(300)
 
         background:
@@ -74,9 +76,12 @@
             +transform (rotateX(0deg))
             opacity: 1
 
-.cprnmore
+.cprnmoreWrap, .onmaxWrap
     max-width: 960px
     margin: 0 auto
+    display: none
+    overflow: hidden
+
 
     img
         max-width: 100%
@@ -84,3 +89,15 @@
     .placeholder
         float: left
         margin: 10px
+
+    .projectBack
+        +size(40px)
+        position: absolute
+        cursor: pointer
+        float: left
+
+        path
+            fill: #666
+
+            &:hover
+                fill: $accent

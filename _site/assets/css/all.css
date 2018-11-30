@@ -565,7 +565,8 @@ body {
 
 svg {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  pointer-events: bounding-box; }
 
 h3 {
   font-size: 18px;
@@ -587,7 +588,12 @@ section:nth-child(odd) {
 h4 {
   font-size: 18px;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #666; }
+  h4:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 header {
   height: 350px;
@@ -770,7 +776,10 @@ footer {
 .projectContainer {
   width: 200%;
   position: relative;
-  left: -100%; }
+  left: 0%;
+  -webkit-transition: all 800ms;
+  -moz-transition: all 800ms;
+  transition: all 800ms; }
 
 .thumbnailWrap, .projectWrap {
   width: 50%;
@@ -797,6 +806,7 @@ footer {
     position: relative;
     padding-top: 20%;
     overflow: hidden;
+    cursor: pointer;
     -webkit-perspective: 300;
     -moz-perspective: 300;
     perspective: 300;
@@ -864,11 +874,23 @@ footer {
       transform: rotateX(0deg);
       opacity: 1; }
 
-.cprnmore {
+.cprnmoreWrap, .onmaxWrap {
   max-width: 960px;
-  margin: 0 auto; }
-  .cprnmore img {
+  margin: 0 auto;
+  display: none;
+  overflow: hidden; }
+  .cprnmoreWrap img, .onmaxWrap img {
     max-width: 100%; }
-  .cprnmore .placeholder {
+  .cprnmoreWrap .placeholder, .onmaxWrap .placeholder {
     float: left;
     margin: 10px; }
+  .cprnmoreWrap .projectBack, .onmaxWrap .projectBack {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    cursor: pointer;
+    float: left; }
+    .cprnmoreWrap .projectBack path, .onmaxWrap .projectBack path {
+      fill: #666; }
+      .cprnmoreWrap .projectBack path:hover, .onmaxWrap .projectBack path:hover {
+        fill: #1a2c37; }
