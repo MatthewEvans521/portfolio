@@ -18,12 +18,12 @@
 
     .thumbnail-1
         background:
-            image: url(../img/projectThumbnails/cprnmoreThumbnail.png)
+            image: url(../img/projects/cprnmore/cprnmoreThumbnail.png)
             position: top center
 
     .thumbnail-2
         background:
-            image: url(../img/projectThumbnails/onmaxThumbnail.png)
+            image: url(../img/projects/onmax/onmaxThumbnail.png)
             position: center center
 
     .thumbnail-1, .thumbnail-2
@@ -43,7 +43,7 @@
         .thumbnail
             +position(absolute, -140% 0px null 0px)
             height: 100%
-            background: fade-out($accent, 0.1)
+            background: $accentDark
             text-align: center
             +transition ( 425ms,  opacity 500ms)
             //+display(flex)
@@ -56,7 +56,7 @@
             strong
                 display: inline-block
                 padding: 20px 0px 10px
-                color: $bgcolor
+                color: $evenbgcolor
                 font:
                     weight: 300
                     size: 24px
@@ -65,7 +65,7 @@
             p
                 display: inline-block
                 padding: 0px 25px 10px
-                color: $bgcolor
+                color: $evenbgcolor
                 font:
                     weight: 300
                     size: 14px
@@ -83,7 +83,12 @@
 
 
     img
+        width: 60%
+        display: block
         margin: 0 auto
+
+    strong
+        font-weight: 700
 
     p
         max-width: 700px
@@ -91,7 +96,7 @@
         position: relative
 
 [type="button"]
-    background: $accent
+    background: $accentDark
     color: white
     font-size: 18px
     text-transform: uppercase
@@ -100,16 +105,16 @@
     margin: 0 auto
 
     &:hover
-        background: $accent-light
+        background: $accent
 
-    .projectBack
-        +size(40px)
-        position: absolute
-        cursor: pointer
-        float: left
+.projectBack
+    +size(40px)
+    position: absolute
+    cursor: pointer
+    float: left
 
-        path
-            fill: #666
+    path
+        fill: $headlineColor
 
-            &:hover
-                fill: $accent
+        &:hover
+            fill: $accentDark

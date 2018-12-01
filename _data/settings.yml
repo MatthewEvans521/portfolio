@@ -6,6 +6,7 @@ description: Software Developer // Programer // Web Developer
 email: matthewevans521@gmail.com
 
 menu:
+- {name: Home, url: '#header'}
 - {name: About Me, url: '#about-me'}
 - {name: Projects, url: '#projects'}
 - {name: Contact, url: '#contact'}

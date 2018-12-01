@@ -1,12 +1,13 @@
 .aboutMeIntro
-    
+
     p
-        max-width: 850px
+        max-width: 950px
         padding: 0 15px
         margin: 30px auto
         font-size: 20px
         text-align: center
         font-weight: 300
+        position: relative
 
 .headShot
     background: url(../img/headShot.png)
@@ -15,15 +16,15 @@
     margin: 30px auto
 
 .skill-lockup
-    max-width: 900px
-    margin: 100px auto
-    padding-left: 350px
-    color: #999
+    max-width: 700px
+    margin: 100px auto 0px
     +clearfix
-    align-items: center
+
 
 .skill-unit
-    width: 450px
+    display: inline-block
+    margin-left: 100px
+    width: 200px
     float: left
 
 .skill-rating
@@ -37,16 +38,16 @@
         border-radius: 50%
 
         &:after
-            content: ' '
+            content: $accent
             display: block
-            +size(10px)
+            +size(14px)
             background: #fff
             border-radius: 50%
             margin: 2px
 
     @for $i from 0 through 10
         &.skill-#{$i} span:nth-child(n+#{$i + 1})
-            background: $bgcolor
+            background: $oddbgcolor
 
 @media screen and (max-width: 1275px)
 

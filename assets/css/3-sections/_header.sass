@@ -1,29 +1,17 @@
 header
-    height: 350px
+    max-width: 1536px
+    height: 300px
     background: url(../img/codeBackground.png) center center
     background-size: cover
+    margin: 0 auto
     +clearfix
 
-    nav
-        float: right
-
-        a
-            margin: 30px 30px 0px 0px
-            display: inline-block
-            font:
-                size: 14px
-                weight: 700
-            color: rgba(200,200,200,1)
-            text-transform: uppercase
-            text-shadow: 1px 1px rgba(26,44,55,1)
-
-            &:hover
-                color: white
+.headerLockup
+    height: 252px
 
     h1
-        margin-top: 0px
-        margin-bottom: 20px
-        padding-top:  100px
+        margin: 0px auto
+        padding-top: 60px
         text-align: center
         font:
             size: 72px
@@ -31,13 +19,14 @@ header
         color: white
         text-transform: uppercase
         text-shadow: 1px 1px rgba(26,44,55,1)
-        letter-spacing: 0.02em
+        letter-spacing: 0.03em
+        //-webkit-text-stroke: 2px $accent
 
-    span
-        display: inline-block
-        padding: 0.2em 0.5em
-        margin: 0 15px
-        border: white solid 10px
+        span
+            display: inline-block
+            padding: 0.2em 0.5em
+            margin: 0 15px
+            border: white solid 10px
 
     .kicker
         text-align: center
@@ -46,7 +35,58 @@ header
         color: white
         text-transform: uppercase
         text-shadow: 1px 1px rgba(26,44,55,1)
+        margin-bottom: 55px
 
+
+.navLockup
+    max-width: 1536px
+    height: 40px
+    display: block
+    +justify-content (space-between)
+    margin: 0 auto
+    background-color: $navBackground
+    border:
+        top: 4px solid $accentDark
+        bottom: 4px solid $accentDark
+        right: 4px solid $accentDark
+        //left: 4px solid $accent
+
+
+.stickyNav
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    width: 1536px
+    background: $navBackground
+    z-index: 1
+
+
+.navLockup
+    nav
+        height: 35px
+
+        a:last-child
+            border-right: 4px solid $accentDark
+
+        a
+            padding: 0px 15px
+            text-transform: uppercase
+            text-align: center
+            font:
+                size: 25px
+                weight: 700
+            color: rgba(200,200,200,1)
+            border-left: 4px solid $accentDark
+            float: left
+
+            &:hover
+                color: white
+
+
+
+
+// Old Media Controls
     @media screen and (max-width: 1005px)
         h1
             font:

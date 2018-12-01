@@ -2,6 +2,7 @@ $(function() {
     smoothScroll(350);
     cprnmoreWrap();
     onmaxWrap();
+    stickyNav();
     //projectWrap();
     //test();
 });
@@ -15,10 +16,22 @@ function smoothScroll (duration) {
 	    if( target.length ) {
 	        event.preventDefault();
 	        $('html, body').animate({
-	            scrollTop: target.offset().top
+	            scrollTop: (target.offset().top) - 34
 	        }, duration);
 	    }
 	});
+}
+
+//stickyNav adds the CSS class .stickyNav to navLockup
+function stickyNav() {
+    $(window).scroll(function(){
+        if($(this).scrollTop()>265){
+            $('.navLockup').addClass('stickyNav');
+        }
+        else {
+            $('.navLockup').removeClass('stickyNav');
+        }
+    });
 }
 
 // Project Section Navigation and Animation (each wrap is a diffrent project)

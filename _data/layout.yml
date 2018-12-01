@@ -1,8 +1,30 @@
-# Colors
+#Defult Color Palette
+#---------------------------------------------------------
+#Background
+documentBackgroundColor: "#1d1e22"
 
-accent: "#1a2c37"
+#---------------------------------------------------------
+#Section Backrounds
+evenbgcolor: "#f9f8fd"
+oddbgcolor: "#d4d4dc"
 
+#---------------------------------------------------------
+#Text Color
 textColor: "#666"
+lightTextColor: "#f9f8fd"
+darkTextColor: "#49494b"
+
+#---------------------------------------------------------
+#Misc
 headlineColor: "#333"
-bgcolor: "#e5eaee"
-documentBackgroundColor: "#fff"
+accent: "#DCAE1D"
+navBackground: "#1a2c37"
+#---------------------------------------------------------
+
+
+
+
+#---------------------------------------------------------
+#Colors
+Honey: "#DCAE1D"
+Dark-Blue: "#1a2c37"

@@ -13,12 +13,17 @@
 
 $accent: {{ site.data.layout.accent }}
 $accent-light: adjust-hue(saturate(lighten($accent, 11%), 12.6%), 14%)
+$accentDark: darken($accent, 10%)
 $selectionColor: lighten($accent, 30%)
 
 $textColor: {{ site.data.layout.textColor }}
+$lightTextColor: {{ site.data.layout.lightTextColor }}
+$darkTextColor: {{ site.data.layout.darkTextColor }}
 $headlineColor: {{ site.data.layout.headlineColor }}
-$bgcolor: {{ site.data.layout.bgcolor }}
+$evenbgcolor: {{ site.data.layout.evenbgcolor }}
+$oddbgcolor: {{ site.data.layout.oddbgcolor }}
 $documentBackgroundColor: {{ site.data.layout.documentBackgroundColor }}
+$navBackground: {{ site.data.layout.navBackground }}
 
 
 @import '2-base/-base-dir'

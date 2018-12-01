@@ -3,7 +3,6 @@
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6
-  //color: $headlineColor
   font-weight: bold
 
 .gigantic
@@ -60,7 +59,7 @@ a
   outline: 0
 
 a:hover, a:focus
-  color: lighten($accent, 20%)
+  color: $accentDark
 
 
 
@@ -68,10 +67,10 @@ a:hover, a:focus
   ------------------------------------	*/
 
 ::selection
-  background: $selectionColor
+  background: $evenbgcolor
 
 ::-moz-selection
-  background: $selectionColor
+  background: $evenbgcolor
 
 img::selection
   background: transparent
@@ -80,7 +79,7 @@ img::-moz-selection
   background: transparent
 
 body
-  -webkit-tap-highlight-color: $selectionColor
+  -webkit-tap-highlight-color: $evenbgcolor
 
 
 
@@ -91,7 +90,7 @@ body
   font-size: 14px
   line-height: 1.6
   font-family: 'Open Sans', sans-serif
-  color: $textColor
+  color: $darkTextColor
   -webkit-font-smoothing: antialiased
   -webkit-text-size-adjust: 100%
 
@@ -105,23 +104,34 @@ h3
         weight: 700
     text-transform: uppercase
     text-align: center
-    color: darken($accent-light, 10%)
+    color: $accentDark
     padding: 30px
     margin: 0px
+    //-webkit-text-stroke: 1px $darkTextColor
 
 fieldset
   padding: 0
   margin: 0
   border: none
 
+section
+  max-width: 1536px
+  margin: 0 auto
+
+
+section:nth-child(even)
+  background: $evenbgcolor
+  padding-bottom: 100px
+
 section:nth-child(odd)
-  background: $bgcolor
+  background: $oddbgcolor
   padding-bottom: 100px
 
 h4
     font-size: 18px
+    padding: 30px
     text:
         align: center
         transform: uppercase
-    color: #666
+    color: $accentDark
     +clearfix
