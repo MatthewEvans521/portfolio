@@ -671,7 +671,7 @@ header {
 
 .navLockup nav {
   height: 35px; }
-  .navLockup nav a:last-child {
+  .navLockup nav a:nth-child(4) {
     border-right: 4px solid #af8a17; }
   .navLockup nav a {
     padding: 0px 15px;
@@ -684,6 +684,9 @@ header {
     float: left; }
     .navLockup nav a:hover {
       color: white; }
+
+.resume {
+  float: right; }
 
 @media screen and (max-width: 768px) {
   header {
