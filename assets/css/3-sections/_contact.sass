@@ -51,3 +51,31 @@
         weight: 300
     line-height: 1
     color: $darkTextColor
+
+/** ----------------------------------- Media Queries -----------------------------------**/
+
+@media screen and (max-width: 1015px)
+    .socialLinks
+        max-width: 400px
+        margin: 0px auto 25px
+
+        a
+            margin: 10px
+
+    .email
+        font-size: 45px
+
+@media screen and (max-width: 640px)
+    .socialLinks
+        max-width: 400px
+        margin: 0px auto 25px
+
+        a
+            font-size: 20px
+            +size(50px)
+            margin: 10px
+
+    .email
+        font-size: 24px
+
+/** ---------------------------------------------------------------------------------------- **/

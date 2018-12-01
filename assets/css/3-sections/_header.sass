@@ -57,7 +57,7 @@ header
     top: 0
     left: 0
     right: 0
-    width: 1536px
+    width: 100%
     background: $navBackground
     z-index: 1
 
@@ -86,40 +86,51 @@ header
 .resume
     float: right
 
+.mobileNav
+    display: none
 
 
+/** ----------------------------------- Media Queries -----------------------------------**/
 
-
-// Old Media Controls
-    @media screen and (max-width: 1005px)
-        h1
-            font:
-                size: 65px
-
-    @media screen and (max-width: 900px)
+@media screen and (max-width: 1017px)
+    .headerLockup
         h1
             font:
                 size: 55px
 
-@media screen and (max-width: 768px)
+            span
+                border: white solid 5px
+
+@media screen and (max-width: 810px)
     header
-        height: 285px
+        height: 150px
+        background: #1a2c37
 
-        h1
-            padding-top:  75px
-            font:
-                size: 50px
+        .navLockup
+            display: none
 
-@media screen and (max-width: 425px)
+        .headerLockup
+            h1
+                padding-top: 20px
+                font:
+                    size: 40px
+
+                span
+                    border: white solid 2px
+
+            .kicker
+                font-size: 10px
+
+    .mobileNav
+        display: block
+        left: 0
+        top: 0
+        +size(40px)
+        fill: white
+
+@media screen and (max-width: 600px)
     header
-        height: 200px
-        background-size: cover
-        +clearfix
-
-        h1
-            padding-top:  45px
-            font:
-                size:  28px
-
-        span
-            border: white solid 5px
+        .headerLockup
+            h1
+                font-size: 25px
+/** ---------------------------------------------------------------------------------------- **/
