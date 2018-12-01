@@ -93,6 +93,7 @@
     p
         max-width: 700px
         margin: 20px auto
+        padding: 0 15px
         position: relative
 
 [type="button"]
@@ -118,3 +119,31 @@
 
         &:hover
             fill: $accentDark
+
+/** ----------------------------------- Media Queries -----------------------------------**/
+
+@media screen and (max-width: 720px)
+    .projectThumbnails
+        .thumbnail-1, .thumbnail-2
+            .thumbnail
+                strong
+                    font-size: 24px
+                    text-align: center
+                    margin: 10px auto
+                p
+                    display: none
+
+    [type="button"]
+        width: 33%
+
+@media screen and (max-width: 1000px)
+    .projectThumbnails
+        .thumbnail-1, .thumbnail-2
+            .thumbnail
+                strong
+                    padding: 12px 0px 10px
+                    font-size: 20px
+                p
+                    padding: 0px 4px 6px
+                    font-size: 11px
+/** ---------------------------------------------------------------------------------------- **/
