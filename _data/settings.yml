@@ -45,7 +45,7 @@ project-1Blurb: <p>CPR-N-MORE is a St. Louis based CPR and AED training company.
                             of the first independent contractors hired by the company and tasked with creating
                              maintain their online presence. The site was much more than landing page for the
                              company...<br><u>More</u></p>
-project-1MainContent: <img src="/assets/img/projects/cprnmore/img-2.png" alt="">
+project-1MainContent: <img src="portfolio/assets/img/projects/cprnmore/img-2.png" alt="">
                                         <p><strong>What is CPR-N-MORE.com?</strong></p>
                                         <p>CPR-N-MORE was the first company I ever developed a website for
                                         and was the place I cut my teeth as it where in the development space. The
@@ -89,7 +89,7 @@ project-2Title: OnMax
 project-2Blurb: <p>OnMax was developed for Enterprise Rent-A-Car, specifically their
                             administrative department to help expedite the process of sifting through
                             employee information...<br><u>More</u></p>
-project-2MainContent: <img src="/assets/img/projects/onmax/onmaxThumbnail.png" alt="">
+project-2MainContent: <img src="portfolio/assets/img/projects/onmax/onmaxThumbnail.png" alt="">
                                         <p><strong>What is OnMax?</strong></p>
                                         <p>OnMax is a macro enabled workbook developed for Enterprise in
                                         response to the overwhelming amount of data that the administrative
