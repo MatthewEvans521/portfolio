@@ -597,6 +597,7 @@ section:nth-child(odd) {
 h4 {
   font-size: 18px;
   padding: 30px;
+  margin: 0px;
   text-align: center;
   text-transform: uppercase;
   color: #af8a17; }
@@ -905,14 +906,14 @@ footer .copyright {
       opacity: 0; }
       .projectThumbnails .thumbnail-1 .thumbnail strong, .projectThumbnails .thumbnail-2 .thumbnail strong {
         display: inline-block;
-        padding: 20px 0px 10px;
+        padding: 15px 0px 10px;
         color: #f9f8fd;
         font-weight: 300;
         font-size: 24px;
         text-transform: uppercase; }
       .projectThumbnails .thumbnail-1 .thumbnail p, .projectThumbnails .thumbnail-2 .thumbnail p {
         display: inline-block;
-        padding: 0px 25px 10px;
+        padding: 0px 25px;
         color: #f9f8fd;
         font-weight: 300;
         font-size: 14px; }
@@ -941,6 +942,12 @@ footer .copyright {
     margin: 20px auto;
     padding: 0 15px;
     position: relative; }
+  .cprnmoreWrap a, .onmaxWrap a {
+    display: block;
+    font-size: 18px;
+    text-decoration: underline;
+    text-align: center;
+    color: #af8a17; }
 
 [type="button"] {
   background: #af8a17;
@@ -956,6 +963,7 @@ footer .copyright {
 .projectBack {
   height: 40px;
   width: 40px;
+  padding-top: 20px;
   position: absolute;
   cursor: pointer;
   float: left; }

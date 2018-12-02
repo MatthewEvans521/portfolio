@@ -1,10 +1,5 @@
 <section class="sectionProjects">
-
-
-
     <div class="projectContainer">
-
-
 
         <div class="thumbnailWrap">
             <h3 id='projects'>Projects</h3>
@@ -12,20 +7,15 @@
 
             <div class="thumbnail-1">
                 <div class="thumbnail" id="cprnmore">
-                    <strong><i>CPR-N-MORE.COM</i></strong>
-                    <p>CPR-N-MORE is a St. Louis based CPR and AED training company. Founded in '06
-                    I was one of the first independent contractors hired by the company and tasked with creating
-                    mainting there online presence. The site is not just a landing page for there company...
-                     <br><u>More</u></p>
+                    <strong><i>{{ site.data.settings.project-1Title}}</i></strong>
+                    {{ site.data.settings.project-1Blurb }}
                 </div>
             </div>
 
             <div class="thumbnail-2">
                 <div class="thumbnail" id="onmax">
-                    <strong><i>OnMax</i></strong>
-                    <p>OnMax was developed to solve the issue enterpise was having in regards to the slow
-                    onboarding practices that dragged the process out of multipule days. I was taked with
-                    creating a solution. <br><u>More</u></p>
+                    <strong><i>{{ site.data.settings.project-2Title}}</i></strong>
+                    {{ site.data.settings.project-2Blurb }}
                 </div>
             </div>
 
@@ -36,38 +26,17 @@
 
             <div class="cprnmoreWrap">
                 <div class="projectBack">{% include icons/back.html %}</div>
-                <h4>CPR-N-MORE.COM</h4>
-                <img src="../assets/img/projects/cprnmore/img-2.png" alt="">
-                <p>CPR-N-MORE is a St. Louis based CPR and AED training company. Founded in 2006
-                I was one of the first independent contractors hired by the company tasked with creating
-                mainting there online presence. The site is not just a landing page for there company, but also
-                acts at the hub for the companys event planning and class roster system. Durring the early days
-                of CPR-N-MORE the site also had an ecomerce component to it where they sold AED uints, this
-                has since been removed form the website as of 2017 I no longer manage the CPR-N-MORE website. </p>
-
-                <button onclick="window.open('https://www.cpr-n-more.com/','_blank')" type="button">Visit Site</button>
+                <h4>{{ site.data.settings.project-1Title}}</h4>
+                {{ site.data.settings.project-1MainContent}}
             </div>
 
             <div class="onmaxWrap">
                 <div class="projectBack">{% include icons/back.html %}</div>
-                <h4>OnMax</h4>
-                <img src="../assets/img/projects/onmax/onmaxThumbnail.png" alt="">
-                <p>OnMax was developed to solve the issue enterpise was having in regards to the slow
-                onboarding practices that dragged the process out of multipule days. I was taked with
-                creating a solution. <br> Utilizing VBA and Excel I created a set of macros that streamlined
-                and automized the process for onboarding personal to create the nessisary documents that they
-                needed to complet there daily tasks. <br> OnMax has the ability to import data from the windows
-                clipboard, and then the end user can choose how they would like the data formated. The key benifit
-                of this software was that the orginal data was around 100 rows of 50 coloms each, and the export of
-                any one specific document would only need 4 - 8 of thoughs coloms, but each export needed diffrent
-                information. OnMax digested this information and exported the nessisary files in less than a 10th
-                of the time that it could be done by hand, saving time money and fatigue.
-                This software is still currently inuse by Enterprise's Onboarding department, a second version is also
-                currently in development.</p>
+                <h4>{{ site.data.settings.project-2Title}}</h4>
+                {{ site.data.settings.project-2MainContent}}
             </div>
 
         </div>
 
     </div>
-
 </section>
