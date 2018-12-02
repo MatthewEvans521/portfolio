@@ -2,25 +2,16 @@
 
         <div class="headerLockup">
             <div class="mobileNav">{% include icons/mobileNav.html %}</div>
-
             <h1><span>{{ site.data.settings.title}}</span></h1>
             <p class="kicker">{{ site.data.settings.description}}</p>
-
         </div>
 
         <div class="navLockup">
-
             <nav>
-
                 {% for item in site.data.settings.menu %}
                 <a href="{{ item.url }}">{{ item.name }}</a>
                 {% endfor %}
-
-            <div class="resume">
-                <a href="resume.html" target="_blank">View Resume</a>
-            </div>
-
+                <div class="resume"><a href="/resume.html" target="_blank">View Resume</a></div>
             </nav>
-
         </div>
 </header>
