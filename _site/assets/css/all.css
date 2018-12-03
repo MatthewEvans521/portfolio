@@ -758,7 +758,9 @@ footer .copyright {
 
 .headShot {
   position: absolute;
+
   background: url(../img/headShot.png);
+
   background-size: cover;
   border-radius: 50%;
   top: 50%;
