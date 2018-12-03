@@ -45,7 +45,7 @@ project-1Blurb: <p>CPR-N-MORE was the first company I ever developed a website f
                             developed using WordPress but as both it and my knowledge grew it was refined
                             and prospered into the site it is today. Utilizing conventional HTML5 and custom
                             CSS…<br><u>More</u></p>
-project-1MainContent: <img src="/assets/img/projects/cprnmore/img-2.png" alt="">
+project-1MainContent: <img src="/portfolio/assets/img/projects/cprnmore/img-2.png" alt="">
                                         <p><strong>What is CPR-N-MORE.com?</strong></p>
                                         <p>CPR-N-MORE was the first company I ever developed a website for
                                         and was the place I cut my teeth as it where as a web developer. The site
@@ -93,7 +93,7 @@ project-2Blurb: <p>OnMax was developed for Enterprise Rent-A-Car, specifically t
                             administrative department to help expedite the process of sifting through
                             employee information and the creation of the relevant documentation to facilitate
                             the process of onboarding process new employees…. <br><u>More</u></p>
-project-2MainContent: <img src="/assets/img/projects/onmax/onmaxThumbnail.png" alt="">
+project-2MainContent: <img src="/portfolio/assets/img/projects/onmax/onmaxThumbnail.png" alt="">
                                         <p><strong>What is OnMax?</strong></p>
                                         <p>OnMax is a macro enabled workbook developed for Enterprise in
                                         response to the overwhelming amount of data that the administrative staff
