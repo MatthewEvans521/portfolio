@@ -748,18 +748,24 @@ footer .copyright {
   font-weight: 300;
   position: relative; }
 
+.headShotBackground {
+  position: relative;
+  background-color: #af8a17;
+  border-radius: 50%;
+  margin: 30px auto;
+  height: 215px;
+  width: 215px; }
+
 .headShot {
-  background: url(../img/headShot.png);
+  position: absolute;
+  background: url(../img/headShot.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0px 0px -100px;
   height: 200px;
-  width: 200px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 30px auto; }
+  width: 200px; }
 
 .skill-lockup {
   max-width: 700px;
@@ -906,14 +912,14 @@ footer .copyright {
       opacity: 0; }
       .projectThumbnails .thumbnail-1 .thumbnail strong, .projectThumbnails .thumbnail-2 .thumbnail strong {
         display: inline-block;
-        padding: 15px 0px 10px;
+        padding: 15px 0px 5px;
         color: #f9f8fd;
         font-weight: 300;
         font-size: 24px;
         text-transform: uppercase; }
       .projectThumbnails .thumbnail-1 .thumbnail p, .projectThumbnails .thumbnail-2 .thumbnail p {
         display: inline-block;
-        padding: 0px 25px;
+        padding: 0px 15px;
         color: #f9f8fd;
         font-weight: 300;
         font-size: 14px; }

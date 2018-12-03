@@ -25,15 +25,14 @@ menu:
 #------------------------------------------- About Me Section --------------------------------------------------#
 #---------------------------------------------------------------------------------------------------------------------#
 
-blurb:  <strong>My name is Matthew Ryan Evans</strong>, and I am a freelance front-end
-            developer working and supporting the community of St. Louis, Missouri. I started
-            developing websites in 2008 and continued to as a hobby though my post-secondary
-            education. After some soul searching in the land of the rising sun I returned to university to
-            follow my passion for technology and software development. I am currently studying
-            Software Development at Western Governors University and plan to graduate in 2019. The
-            thing that excites me most about technology is that we are no longer bound by hardware
-            limitations, but merely by the depth of our own imagination, and that’s what drives me
-            every day, to learn and develop, to make dreams realties.
+blurb:  <strong>My name is Matthew Ryan Evans.</strong> I tend to describe myself as
+            <i>wide-eyed, enthusiastic, and driven...</i> above all else I am
+            <strong>passionate</strong> about technology. It inspires me and is my catalyst to
+            continue to learn, explore and push the boundaries of what we currently believe is possible.
+            I started programing as a hobby while I was in high school and choose to continue my
+            education at Western Governors University to study Software Development and plan to
+            graduate in 2019. Alongside a full time job, and course load I still find time to freelance
+            building websites for local small buisnesses.
 
 #---------------------------------------------------------------------------------------------------------------------#
 #---------------------------------------------- Projects Section --------------------------------------------------#
@@ -41,46 +40,50 @@ blurb:  <strong>My name is Matthew Ryan Evans</strong>, and I am a freelance fro
 
 #---------------------------------------------------- Project 1 ----------------------------------------------------#
 project-1Title: CPR-N-MORE.COM
-project-1Blurb: <p>CPR-N-MORE is a St. Louis based CPR and AED training company. I was one
-                            of the first independent contractors hired by the company and tasked with creating
-                             maintain their online presence. The site was much more than landing page for the
-                             company...<br><u>More</u></p>
-project-1MainContent: <img src="/portfolio/assets/img/projects/cprnmore/img-2.png" alt="">
+project-1Blurb: <p>CPR-N-MORE was the first company I ever developed a website for and was
+                            the place I cut my teeth as it where as a web developer. The site was originally
+                            developed using WordPress but as both it and my knowledge grew it was refined
+                            and prospered into the site it is today. Utilizing conventional HTML5 and custom
+                            CSS…<br><u>More</u></p>
+project-1MainContent: <img src="/assets/img/projects/cprnmore/img-2.png" alt="">
                                         <p><strong>What is CPR-N-MORE.com?</strong></p>
                                         <p>CPR-N-MORE was the first company I ever developed a website for
-                                        and was the place I cut my teeth as it where in the development space. The
-                                        site was originally developed using WordPress but has gone on to be
-                                        refined utilizing conventional HTML5 and custom CSS styling. APIs
-                                        where also incorporated to help facilitate the online ecommerce aspect of
-                                        the site as well as maintain the even handling features of the site.</p>
+                                        and was the place I cut my teeth as it where as a web developer. The site
+                                        was originally developed using WordPress but as both it and my
+                                        knowledge grew it was refined and prospered into the site it is today.
+                                        Utilizing conventional HTML5 and custom CSS styling as well as the
+                                        incorporation of APIs I was able to obtain the vison and requirements put
+                                        forth by the company’s owners. It went on to become the pivotal tool in
+                                        company’s arsenal, facilitating not only sales but as the main registration
+                                        hub for potential students/customers.</p>
                                         <p><strong>Technologies Utilized:</strong></p>
                                         <p>HTML5, CSS3, JavaScript, WordPress and APIs
                                         (PayPal, Event Expresso)</p>
                                         <p><strong>The Story:</strong></p>
-                                        <p>CPR-N-MORE is a St. Louis based CPR and AED training company.
-                                        I was one of the first independent contractors hired by the company and
-                                        tasked with creating maintain their online presence. The site was much
-                                        more than landing page for the company as it was the primary resource for
-                                        potential students to register for upcoming class. In the early days I
-                                        managed the registration process utilizing a mixture of individual HTML
-                                        pages for corresponding class dates and then linking them to a calendar,
-                                        so customers could navigate to the class of their choosing. Today it is a
-                                        much different story, as we have integrated Event Expressos API allowing
-                                        us to maintain and customers multiple facets of the registration process
-                                        and collet all pertinent data in a safe and secure way. Another major aspect
-                                        of the website when it was first incepted was the ecommerce section of the
-                                        site where the company sold AEDs and other various first aid and safety
-                                        related merchandise. This aspect of the site was accomplished by
-                                        integrating the PayPal API directly into the site and structuring a page on
-                                        the website to act as a virtual catalog for potential customers to brows the
-                                        company’s goods. I learned an extensive amount during my time
-                                        developing this site and look back on the experience as I move forward as
-                                        a developer.</p>
+                                        <p>CPR-N-MORE is a St. Louis based CPR and AED sales and training
+                                        company. I was one of the first independent contractors hired by the
+                                        company and tasked with creating and maintain their online presence. The
+                                        site was much more than landing page for the company as it was the
+                                        primary resource for potential students to register for upcoming class. In
+                                        the early days I managed the registration process utilizing a mixture of
+                                        individual HTML pages for corresponding class and then linking them to
+                                        a calendar, so customers could navigate to the class of their choosing with
+                                        ease. Today it is a much different story, as we have integrated Event
+                                        Expressos’ API allowing us to maintain and customize multiple facets of
+                                        the registration process and collet all pertinent data in a safe and secure
+                                        way. Another major aspect of the website when it was first incepted was
+                                        the ecommerce section of the site where the company sold AEDs and
+                                        other various first aid and safety related merchandise. This aspect of the
+                                        site was accomplished by integrating the PayPal API directly into the site
+                                        and structuring a page to act as a virtual catalog for potential customers to
+                                        brows the company’s goods. I learned an extensive amount during my
+                                        time developing this site and look back on the experience as I move
+                                        forward as a developer.</p>
                                         <p><strong>What I Learned:</strong></p>
-                                        <p>I learned that you never stop learning, every day I worked on
-                                        CPR-N-MORE’s website I continued to learn something new.
-                                        Additionally, I learned that value of strong problem-solving skills as any
-                                        adversity can be overcome with the right fortitude.</p>
+                                        <p>I learned that you never stop learning, every day I worked on website
+                                        I continued to learn something new. Additionally, I learned that value of
+                                        strong problem-solving skills as any adversity can be overcome with the
+                                        right mindset.</p>
                                         <a href="#projects">top</a>
 
 
@@ -88,51 +91,47 @@ project-1MainContent: <img src="/portfolio/assets/img/projects/cprnmore/img-2.pn
 project-2Title: OnMax
 project-2Blurb: <p>OnMax was developed for Enterprise Rent-A-Car, specifically their
                             administrative department to help expedite the process of sifting through
-                            employee information...<br><u>More</u></p>
-project-2MainContent: <img src="/portfolio/assets/img/projects/onmax/onmaxThumbnail.png" alt="">
+                            employee information and the creation of the relevant documentation to facilitate
+                            the process of onboarding process new employees…. <br><u>More</u></p>
+project-2MainContent: <img src="/assets/img/projects/onmax/onmaxThumbnail.png" alt="">
                                         <p><strong>What is OnMax?</strong></p>
                                         <p>OnMax is a macro enabled workbook developed for Enterprise in
-                                        response to the overwhelming amount of data that the administrative
-                                        department had to sift through to onboard each new hire class.</p>
+                                        response to the overwhelming amount of data that the administrative staff
+                                        had to sift through to onboard each new hire class. The macro automated
+                                        the process and turned a drawn-out tedious task into just a few clicks of
+                                        the mouse..</p>
                                         <p><strong>Technologies Utilized:</strong></p>
                                         <p>VBA and Excel</p>
                                         <p><strong>The Story:</strong></p>
-                                        <p>OnMax was developed for Enterprise Rent-A-Car, specifically their
-                                        administrative department to help expedite the process of sifting through
-                                        employee information and the creation of the relevant documentation to
-                                        facilitate the process of onboarding process new employees. The problem
-                                        that existed and the catalyst for the inception of OnMax was the daunting
-                                        amount of information that the department had to sift through for each
-                                        new hire class. The average class would be around 30 individuals and
-                                        each of them would have at least 30 different points of data that would be
-                                        attached to them, and only a few of each of these data points would be
-                                        relevant to any individual department so the task of creating spreadsheets
-                                        was an immense one that took many hours of tedious work, and this could
-                                        happen anywhere from once a week to multiple times a week, and a
-                                        solution had to be found to resolve this hurdle.</p>
-                                        <p>I sat down with the head of System administrations and was advised
-                                        of the problem at hand and was asked to develop a solution but was told
-                                        my limitations where that it would need to be deployable on an imaged
-                                        virtual desktop with no administrative access. Undeterred I set to work
-                                        brainstorming possible solutions, and finally settled on a macro enabled
-                                        workbook within excel. It was an elegant solution as it could be small
-                                        enough to be implemented and moved from virtual machine to virtual
-                                        machine, but robust and powerful as its backbone was built on VBA.</p>
-                                        <p>The exported “master” data came from Microsoft Access and pasted
-                                        seamlessly into an excel spreadsheet. After the master data had been
-                                        imported into the spreadsheet the macro I wrote took the data and
-                                        partitioned it into multiple different camps so that it could be then
-                                        reinjected back into a separate workbook as a single excel document that
-                                        had the proper information for any given department. As there was no way
-                                        to know which documentation would be needed on any given basis I
-                                        developed multiple different export buttons which depending on the
-                                        desired information would extract the appropriate corresponding data
-                                        point and inject it into a separate spreadsheet.</p>
+                                        <p>OnMax was macro enabled workbook developed for Enterprise
+                                        Rent-A-Car, specifically for their administrative staff to help expedite the
+                                        process of sifting through employee information and the creation of the
+                                        relevant documentation to request anything form security codes to email
+                                        access. The original process had the administrative staff sifting through a
+                                        document with thirty+ different data points per employee and extracting
+                                        only a hand full of them to create the required documents for each relevant
+                                        department. This was a sub optimal and arduous task that could take
+                                        multiple hours depending on the size of the income class of new hires.
+                                        Therefore, I was tasked to find a solution, but found that the limiting
+                                        factors of an all virtual environment without administrative access a
+                                        hostile workplace for creativity. I was forced to think materialistically, but
+                                        critically, the solution had to be small and piggyback off an already
+                                        existing structure that the end user had access to on their virtual machine.
+                                        After great deliberation I decided that the most practical solution would be
+                                        to utilize a macro enabled work book in excel and write a custom VBA
+                                        script to parse and array that data to be called into an independent excel
+                                        sheet depending on the needs of the end user. VBA functions second
+                                        nature within excel, and as it has similarity between both C and .NET it
+                                        proved to be both versatile and comprehensive. As this application is still
+                                        in use today, I believe the solution I provided did indeed meet expectations
+                                        and a second revision with the ability for the end-user to input custom data
+                                        on the fly is currently in the works.</p>
                                         <p><strong>What I Learned:</strong></p>
                                         <p>I learned that simplicity is not always a bad thing, sometimes the most
-                                        elegant solutions are the simple ones. Over engineering a solution can be
-                                        fun, but when a problem needs to be addressed. It is better to fall back on
-                                        what you know and deliver a solution and then refine form there.</p>
+                                        elegant solutions are the simple ones. Additionally, limitations are not
+                                        always a hurdle to overcome, but merely a biproduct of the environment at
+                                        hand. Lastly, it’s better to fall back on what you know and deliver a
+                                        solution that works, and then refine form there.</p>
                                         <a href="#projects">top</a>
 
 #---------------------------------------------------------------------------------------------------------------------#
