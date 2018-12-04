@@ -26,13 +26,15 @@ menu:
 #---------------------------------------------------------------------------------------------------------------------#
 
 blurb:  <strong>My name is Matthew Ryan Evans.</strong> I tend to describe myself as
-            <i>wide-eyed, enthusiastic, and driven...</i> above all else I am
-            <strong>passionate</strong> about technology. It inspires me and is my catalyst to
-            continue to learn, explore and push the boundaries of what we currently believe is possible.
-            I started programing as a hobby while I was in high school and choose to continue my
-            education at Western Governors University to study Software Development and plan to
-            graduate in 2019. Alongside a full time job, and course load I still find time to freelance
-            building websites for local small buisnesses.
+            <i>wide-eyed, enthusiastic, and driven...above all else I am passionate about technology. It
+            inspires me and it is my catalyst to continue to learn, explore and push the boundaries
+            of what we currently believe is possible.I began programming as a hobby in high school.
+            Although I initially pursued my interest of film-making in college and earned a Bachelor of
+            Science degree in Film, ultimately I realize that my true interest and career ambition was
+            in Computer Science. I am currently enrolled at Western Governors University, studying
+            Software Development with plans to graduate in 2019. In addition to a full-time job and
+            course load, I still find time to freelance and assist small businesses with website
+            development.
 
 #---------------------------------------------------------------------------------------------------------------------#
 #---------------------------------------------- Projects Section --------------------------------------------------#
@@ -40,22 +42,23 @@ blurb:  <strong>My name is Matthew Ryan Evans.</strong> I tend to describe mysel
 
 #---------------------------------------------------- Project 1 ----------------------------------------------------#
 project-1Title: CPR-N-MORE.COM
-project-1Blurb: <p>CPR-N-MORE was the first company I ever developed a website for and was
-                            the place I cut my teeth as it where as a web developer. The site was originally
-                            developed using WordPress but as both it and my knowledge grew it was refined
-                            and prospered into the site it is today. Utilizing conventional HTML5 and custom
-                            CSS…<br><u>More</u></p>
+project-1Blurb: <p>CPR-N-MORE was my first Website Development job and the place
+                            I cut my teeth in web design and site development utilizing WordPress but
+                            as both it and my knowledge grew it was refined...<br><u>More</u></p>
 project-1MainContent: <img src="/portfolio/assets/img/projects/cprnmore/img-2.png" alt="">
                                         <p><strong>What is CPR-N-MORE.com?</strong></p>
-                                        <p>CPR-N-MORE was the first company I ever developed a website for
-                                        and was the place I cut my teeth as it where as a web developer. The site
-                                        was originally developed using WordPress but as both it and my
-                                        knowledge grew it was refined and prospered into the site it is today.
-                                        Utilizing conventional HTML5 and custom CSS styling as well as the
-                                        incorporation of APIs I was able to obtain the vison and requirements put
-                                        forth by the company’s owners. It went on to become the pivotal tool in
-                                        company’s arsenal, facilitating not only sales but as the main registration
-                                        hub for potential students/customers.</p>
+                                        <p>CPR-N-MORE was my first Website Development job and the place
+                                        I cut my teeth in web design and site development utilizing WordPress but
+                                        as both it and my knowledge grew it was refined and morphed into the
+                                        site it is today. Utilizing conventional HTML5 and custom CSS styling as
+                                        well as the incorporation of APIs, I was able to create a product that
+                                        incorporated both the owner's vision and requirements and in so doing,
+                                        became the pivotal tool in the company's arsenal to reach CPR and First
+                                        Aid clients throughout Missouri and Eastern Illinois, reportedly boosting
+                                        sales and service by more than 70% through the creation of an online store
+                                        for the purchase of AEDs and safety equipment and more importantly,
+                                        created the platform for an interactive registration and payment hub for
+                                        individual student registrations and large businesses alike.</p>
                                         <p><strong>Technologies Utilized:</strong></p>
                                         <p>HTML5, CSS3, JavaScript, WordPress and APIs
                                         (PayPal, Event Expresso)</p>
@@ -63,43 +66,44 @@ project-1MainContent: <img src="/portfolio/assets/img/projects/cprnmore/img-2.pn
                                         <p>CPR-N-MORE is a St. Louis based CPR and AED sales and training
                                         company. I was one of the first independent contractors hired by the
                                         company and tasked with creating and maintain their online presence. The
-                                        site was much more than landing page for the company as it was the
-                                        primary resource for potential students to register for upcoming class. In
-                                        the early days I managed the registration process utilizing a mixture of
-                                        individual HTML pages for corresponding class and then linking them to
-                                        a calendar, so customers could navigate to the class of their choosing with
-                                        ease. Today it is a much different story, as we have integrated Event
-                                        Expressos’ API allowing us to maintain and customize multiple facets of
-                                        the registration process and collet all pertinent data in a safe and secure
-                                        way. Another major aspect of the website when it was first incepted was
-                                        the ecommerce section of the site where the company sold AEDs and
-                                        other various first aid and safety related merchandise. This aspect of the
-                                        site was accomplished by integrating the PayPal API directly into the site
-                                        and structuring a page to act as a virtual catalog for potential customers to
-                                        brows the company’s goods. I learned an extensive amount during my
-                                        time developing this site and look back on the experience as I move
-                                        forward as a developer.</p>
+                                        site was much more than a landing page for the company as it was the
+                                        primary resource for potential students to register for upcoming course
+                                        offerings. In the early days I managed the registration process utilizing a
+                                        mixture of individual HTML pages for corresponding class and then
+                                        linking them to a calendar, so customers could navigate to the class of
+                                        their choosing with ease. Today it is a much different story, as we have
+                                        integrated Event Espresso's API allowing us to maintain and customize
+                                        multiple facets of the registration process and collect all pertinent data in a
+                                        safe and secure way. Another major aspect of the website at its inception,
+                                        was the e-commerce section of the site where the company sold AEDs
+                                        and other various first aid and safety related merchandise. This aspect of
+                                        the site was accomplished by integrating the PayPal API directly into the
+                                        site and structuring the page to act as a virtual catalog for potential
+                                        customers to browse the company’s online store. I learned an extensive
+                                        amount during my time developing this site and look back on the
+                                        experience as I move forward as a developer.</p>
                                         <p><strong>What I Learned:</strong></p>
-                                        <p>I learned that you never stop learning, every day I worked on website
-                                        I continued to learn something new. Additionally, I learned that value of
-                                        strong problem-solving skills as any adversity can be overcome with the
-                                        right mindset.</p>
+                                        <p>I learned that you never stop learning  and each day that I worked on
+                                        the website, I continued to learn something new. Additionally, I learned
+                                        that value of strong problem-solving while addressing the many unknowns
+                                        while creating the site.</p>
                                         <a href="#projects">top</a>
 
 
 #---------------------------------------------------- Project 2 ----------------------------------------------------#
 project-2Title: OnMax
-project-2Blurb: <p>OnMax was developed for Enterprise Rent-A-Car, specifically their
-                            administrative department to help expedite the process of sifting through
-                            employee information and the creation of the relevant documentation to facilitate
-                            the process of onboarding process new employees…. <br><u>More</u></p>
+project-2Blurb: <p>OnMax is a macro enabled workbook developed for Enterprise in
+                            response to the overwhelming amount of data that the administrative
+                            staff has to sift through to onboard each new hire class. The macro
+                            automated the process and turned a drawn-out tedious task into just a few
+                            clicks of the mouse..<br><u>More</u></p>
 project-2MainContent: <img src="/portfolio/assets/img/projects/onmax/onmaxThumbnail.png" alt="">
                                         <p><strong>What is OnMax?</strong></p>
                                         <p>OnMax is a macro enabled workbook developed for Enterprise in
-                                        response to the overwhelming amount of data that the administrative staff
-                                        had to sift through to onboard each new hire class. The macro automated
-                                        the process and turned a drawn-out tedious task into just a few clicks of
-                                        the mouse..</p>
+                                        response to the overwhelming amount of data that the administrative
+                                        staff has to sift through to onboard each new hire class. The macro
+                                        automated the process and turned a drawn-out tedious task into just a few
+                                        clicks of the mouse..</p>
                                         <p><strong>Technologies Utilized:</strong></p>
                                         <p>VBA and Excel</p>
                                         <p><strong>The Story:</strong></p>
@@ -129,7 +133,7 @@ project-2MainContent: <img src="/portfolio/assets/img/projects/onmax/onmaxThumbn
                                         <p><strong>What I Learned:</strong></p>
                                         <p>I learned that simplicity is not always a bad thing, sometimes the most
                                         elegant solutions are the simple ones. Additionally, limitations are not
-                                        always a hurdle to overcome, but merely a biproduct of the environment at
+                                        always a hurdle to overcome, but merely a byproduct of the environment at
                                         hand. Lastly, it’s better to fall back on what you know and deliver a
                                         solution that works, and then refine form there.</p>
                                         <a href="#projects">top</a>
